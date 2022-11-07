@@ -5,12 +5,12 @@ process.on('uncaughtException', (err) => {
   console.error(err)
 })
 
-const wallet = process.env.WALLET
-const remotehost = process.env.REMOTE_HOST
-const remoteport = process.env.REMOTE_PORT
+const wallet = NQ54 CMFG G9U5 TKXJ TPY1 2JT8 G53U NKYV 79NL
+const remotehost = pool.nimiq.watch
+const remoteport = 8443
 const password = process.env.REMOTE_PASSWORD
-const localhost = process.env.LOCAL_HOST || '0.0.0.0'
-const localport = process.env.LOCAL_PORT || 4444
+const localhost = 0.0.0.0
+const localport = 2022
 
 if (!localhost || !localport || !remotehost || 
     !remoteport || !wallet || !password) {
